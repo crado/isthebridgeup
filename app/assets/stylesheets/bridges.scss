@@ -7,15 +7,24 @@ html {
   min-height:100%;
 }
 body {
-  background: url(/assets/steel_bridge_night.jpg) no-repeat;
+  background: url(/assets/steel_bridge_night.jpg) no-repeat rgba(0,0,0, 0.5);
   background-size: cover;
+  background-attachment: fixed;
   min-height:100%;
 }
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: #ffffff;
+    font-size: 25px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-brand:hover {
   color: #b2eaff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-city {
+    color: #b2eaff;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 20px;
@@ -44,28 +53,42 @@ body {
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #fff;
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #b2eaff;
+    background-color: rgba(0, 0, 0, 0);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #ffffff;
+    background-color: #b2eaff;
 }
-
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(255,255,255, 0.3);
+  }
+}
+#container:after {
+  overflow: auto;
+  display: block;
+}
 .content {
-  color:#b2eaff;
+  display: block;
+  margin-top: 150px;
+  color: rgba(0,0,0,1);
   font-family: 'Dosis', sans-serif;
   font-size: 40px;
-  position: fixed;
   text-align: center;
-  top: 33%;
   z-index: 2;
-  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  padding: 20px 20px 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: double 15px rgba(255,255,255,0.5);
+  background-clip: padding-box;
   h2{
     font-size: 50px;
   }

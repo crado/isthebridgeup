@@ -1,0 +1,97 @@
+// Place all the styles related to the bridges controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  height:100%;
+  min-height:100%;
+}
+body {
+  background: url(/assets/st_johns.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:100%;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #000000;
+    font-size: 25px;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand:hover {
+  color: #0c6399;
+}
+#custom-bootstrap-menu.navbar-default .navbar-city {
+    color: #0c6399;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-width: 0px;
+    opacity: 0.75;
+    font-family: 'Dosis', sans-serif;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #000000;
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #0c6399;
+    background-color: rgba(255, 255, 255, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #000000;
+    background-color: #000;
+    background: -webkit-linear-gradient(top, rgba(27, 147, 171, 0) 0%, rgba(50, 137, 181, 0) 100%);
+    background: linear-gradient(to bottom, rgba(27, 147, 171, 0) 0%, rgba(50, 137, 181, 0) 100%);
+    opacity: 0.10;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #0c6399;
+}
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(255,255,255, 0.3);
+  }
+}
+#container:after {
+  overflow: auto;
+  display: block;
+}
+.content {
+  display: block;
+  margin-top: 150px;
+  color: rgba(0,0,0,1);
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  z-index: 2;
+  background-color: rgba(255,255,255,0.5);
+  padding: 20px 20px 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: double 15px rgba(255,255,255,0.5);
+  background-clip: padding-box;
+  h2{
+    font-size: 50px;
+  }
+}

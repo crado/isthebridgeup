@@ -5,17 +5,25 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200|Open+Sans:300,400" rel="stylesheet">
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
 
-  <%= render 'layouts/header' %>
-
   <div id="container">
+    <%= render 'layouts/header' %>
     <%= yield %>
   </div>
 
   </body>
 </html>
+<script type="text/javascript">
+$(document).ready(function(){
+	var d = new Date();
+	var n = d.getHours();
+	if (n > 6 || n < 18)
+	  // If time is after 6AM or before 6PM, change stylesheet
+	  document.write("<%= stylesheet_link_tag "day" %>");
+});
+</script>
