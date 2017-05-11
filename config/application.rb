@@ -13,5 +13,6 @@ module IsItUp
     # -- all .rb files in that directory are automatically loaded.
     config.time_zone = 'Pacific Time (US & Canada)'
     config.active_support.escape_html_entities_in_json = false
+    config.assets.initialize_on_precompile = false
   end
 end
