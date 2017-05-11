@@ -3,4 +3,5 @@ module ApplicationHelper
     boolean ? 'yes' : 'no'
   end
 
+  
 end
