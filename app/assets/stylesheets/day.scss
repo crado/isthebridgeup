@@ -22,11 +22,13 @@ body {
   color: #0c6399;
 }
 #custom-bootstrap-menu.navbar-default .navbar-city {
-    color: #0c6399;
+    color: #003300;
     font-size: 18px;
+    font-weight: bold;
     display: inline-block;
     vertical-align: bottom;
     float: none;
+    font-family: 'Open Sans', sans-serif;
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 20px;
@@ -89,6 +91,7 @@ body {
   padding: 20px 20px 20px 20px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
   border: double 15px rgba(255,255,255,0.5);
   background-clip: padding-box;
   h2{
