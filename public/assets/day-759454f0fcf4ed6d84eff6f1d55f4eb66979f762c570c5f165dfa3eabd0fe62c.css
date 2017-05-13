@@ -1,0 +1,121 @@
+/* line 5, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 9, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+body {
+  background: url(/assets/st_johns.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+/* line 16, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: #000000;
+  font-size: 25px;
+}
+
+/* line 21, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-brand:hover {
+  color: #0c6399;
+}
+
+/* line 24, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-city {
+  color: #0c6399;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+
+/* line 31, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-width: 0px;
+  opacity: 0.75;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* line 38, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  background-color: rgba(248, 248, 248, 0);
+}
+
+/* line 42, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+  color: #0c6399;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* line 47, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #000;
+  background: -webkit-linear-gradient(top, rgba(27, 147, 171, 0) 0%, rgba(50, 137, 181, 0) 100%);
+  background: linear-gradient(to bottom, rgba(27, 147, 171, 0) 0%, rgba(50, 137, 181, 0) 100%);
+  opacity: 0.10;
+}
+
+/* line 56, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #000000;
+}
+
+/* line 60, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+/* line 64, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+
+/* line 67, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #0c6399;
+}
+
+@media (max-width: 767px) {
+  /* line 72, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+/* line 76, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+#container:after {
+  overflow: auto;
+  display: block;
+}
+
+/* line 80, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+.content {
+  display: block;
+  margin-top: 150px;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 20px 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: double 15px rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+}
+/* line 94, /Users/craigbodo/Workspace/is_it_up/app/assets/stylesheets/day.scss */
+.content h2 {
+  font-size: 50px;
+}
