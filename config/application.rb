@@ -14,5 +14,6 @@ module IsItUp
     config.time_zone = 'Pacific Time (US & Canada)'
     config.active_support.escape_html_entities_in_json = false
     config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
   end
 end

@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Is the Bridge Up?</title>
+    <title>Is the Bridge Up?<%= yield(:title) %></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <script>
-    var t = new Date();
-    var day_start = t.setHours(6);
-    var night_start = t.setHours(18)
-    if (Date.prototype.getHours() < night_start && Date.prototype.getHours() > day_start) {
-      if (!document.getElementById) document.write(<%= stylesheet_link_tag 'day' %>);
-    } else {
-      if (!document.getElementById) document.write(<%= stylesheet_link_tag 'bridges' %>);
-    }
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Dosis:200|Open+Sans:300,400" rel="stylesheet">
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
